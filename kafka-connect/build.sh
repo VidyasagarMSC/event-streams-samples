@@ -10,7 +10,7 @@ mkdir -p ./connectors
 
 # Build COS Sink
 (
-git clone https://github.com/ibm-messaging/kafka-connect-ibmcos-sink
+git clone https://github.com/vidyasagarmsc/kafka-connect-ibmcos-sink
 cd kafka-connect-ibmcos-sink
 gradle clean shadowJar
 cp ./build/libs/kafka-connect-ibmcos-sink-*-all.jar ../connectors
